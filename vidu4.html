@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <style>
+            .form-input {
+                width: 100%;
+                height: 30px;
+                border: 1px solid #AAA;
+                border-radius: 3px;
+                margin-top: 5px;
+            }
+            input[type=number]{
+              width: 50px;
+              text-align: center;
+            }
+            .btnSave{
+                text-align: center;
+                margin-top: 10px;
+                width: 50px;
+                height: 30px;
+                border: 0;
+                border-radius: 3px;
+                background-color: blue;
+                color: white;
+                font-family:  Arial,sans-serif;
+            }
+          </style>
+    </head>
+    <body>
+        <table style="width: 80%;">
+            <tbody>
+                <tr>
+                    <th style="width: 30%">Sản Phẩm:</th>
+                    <td><input class="form-input"></td>
+                </tr>
+                <tr>
+                    <th>Số Lượng:</th>
+                    <td><input type="number" min="1"></td>
+                </tr>
+                <tr>
+                    <th>Tên Khách Hàng:</th>
+                    <td><input class="form-input"></td>
+                </tr>
+                <tr>
+                    <th>SĐT Khách Hàng:</th>
+                    <td><input class="form-input"></td>
+                </tr>
+                <tr>
+                    <th>Địa Chỉ Khách Hàng:</th>
+                    <td><textarea class="form-input"></textarea></td>
+                </tr>
+            </tbody>
+        </table>
+        <button class='btnSave'>Lưu</button>
+    </body>
+</html>
